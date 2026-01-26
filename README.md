@@ -1,6 +1,6 @@
 # Pathway Core v0.1
 
-**Pathway Core is an append-only, learning-aware journey engine.**
+**Pathway Core is an append-only journey engine where undo never erases learning.**
 
 Undo is navigation. Learning persists.
 
