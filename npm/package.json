@@ -1,6 +1,6 @@
 {
   "name": "@mcptoolshop/pathway",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "npm wrapper for pathway - Workflow automation tool",
   "bin": {
     "pathway": "./bin/pathway.js"
