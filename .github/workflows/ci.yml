@@ -37,4 +37,5 @@ jobs:
     - name: Test CLI commands
       run: |
         python -m pathway.cli --help
+        rm -f pathway.db
         python -m pathway.cli init
