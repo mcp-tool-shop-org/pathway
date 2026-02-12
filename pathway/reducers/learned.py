@@ -9,6 +9,8 @@ Key invariant: Learning persists across backtracking.
 When the user backtracks, they keep what they learned on the abandoned path.
 """
 
+from typing import Any
+
 from pathway.models.events import (
     EventEnvelope,
     EventType,
@@ -79,7 +81,7 @@ def reduce_learned(events: list[EventEnvelope]) -> LearnedView:
 def _update_learned_record(
     records: dict[str, LearnedRecord],
     id_: str,
-    value: any,
+    value: Any,
     confidence_delta: float,
     evidence: list[EvidenceRef] | None,
     seq: int,
@@ -140,7 +142,7 @@ def get_high_confidence_concepts(
     ]
 
 
-def get_active_constraints(view: LearnedView) -> dict[str, any]:
+def get_active_constraints(view: LearnedView) -> dict[str, Any]:
     """Get constraints with their values.
 
     Args:
@@ -156,7 +158,7 @@ def get_active_constraints(view: LearnedView) -> dict[str, any]:
     }
 
 
-def get_user_preferences(view: LearnedView) -> dict[str, any]:
+def get_user_preferences(view: LearnedView) -> dict[str, Any]:
     """Get preferences with their values.
 
     Args:
