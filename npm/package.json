@@ -19,10 +19,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mcp-tool-shop/pathway.git",
+    "url": "git+https://github.com/mcp-tool-shop-org/pathway.git",
     "directory": "npm"
   },
-  "homepage": "https://github.com/mcp-tool-shop/pathway#readme",
+  "homepage": "https://github.com/mcp-tool-shop-org/pathway#readme",
   "engines": {
     "node": ">=18.0.0"
   },

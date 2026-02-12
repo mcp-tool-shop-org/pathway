@@ -47,7 +47,7 @@ It simply records what happened—honestly, immutably, inspectably—and lets yo
 ### Get Started
 
 ```bash
-git clone https://github.com/mcp-tool-shop/pathway
+git clone https://github.com/mcp-tool-shop-org/pathway
 cd pathway
 pip install -e ".[dev]"
 python -m pathway.cli init
@@ -57,7 +57,7 @@ python -m pathway.cli state sess_001
 
 ### Links
 
-- **Repository**: https://github.com/mcp-tool-shop/pathway
+- **Repository**: https://github.com/mcp-tool-shop-org/pathway
 - **Documentation**: See README.md and WHY.md
 - **License**: MIT
 
@@ -69,7 +69,7 @@ Pathway Core v0.1.0 is infrastructure for that bet.
 
 ---
 
-**Contact**: Open an issue at https://github.com/mcp-tool-shop/pathway/issues
+**Contact**: Open an issue at https://github.com/mcp-tool-shop-org/pathway/issues
 
 **Release Date**: January 26, 2026
 

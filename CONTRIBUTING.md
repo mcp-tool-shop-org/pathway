@@ -8,7 +8,7 @@ Thank you for your interest in contributing to Pathway Core! This is an append-o
 
 If you find a bug or have a suggestion:
 
-1. Check if the issue already exists in [GitHub Issues](https://github.com/mcp-tool-shop/pathway/issues)
+1. Check if the issue already exists in [GitHub Issues](https://github.com/mcp-tool-shop-org/pathway/issues)
 2. If not, create a new issue with:
    - A clear, descriptive title
    - Steps to reproduce (for bugs)
@@ -38,7 +38,7 @@ If you find a bug or have a suggestion:
 
 ```bash
 # Clone the repository
-git clone https://github.com/mcp-tool-shop/pathway.git
+git clone https://github.com/mcp-tool-shop-org/pathway.git
 cd pathway
 
 # Create a virtual environment

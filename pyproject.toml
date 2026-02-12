@@ -16,17 +16,17 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
 ]
 
-[project.urls]
-Homepage = "https://github.com/mcp-tool-shop/pathway"
-Repository = "https://github.com/mcp-tool-shop/pathway"
-Issues = "https://github.com/mcp-tool-shop/pathway/issues"
-
 dependencies = [
     "pydantic>=2.0",
     "fastapi>=0.100.0",
     "uvicorn>=0.20.0",
     "ulid-py>=1.1.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/mcp-tool-shop-org/pathway"
+Repository = "https://github.com/mcp-tool-shop-org/pathway"
+Issues = "https://github.com/mcp-tool-shop-org/pathway/issues"
 
 [project.optional-dependencies]
 dev = [
