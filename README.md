@@ -1,5 +1,10 @@
 # Pathway Core v0.1
 
+[![CI](https://github.com/mcp-tool-shop-org/pathway/actions/workflows/ci.yml/badge.svg)](https://github.com/mcp-tool-shop-org/pathway/actions/workflows/ci.yml)
+[![PyPI](https://img.shields.io/pypi/v/pathway-core)](https://pypi.org/project/pathway-core/)
+![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 **Pathway Core is an append-only journey engine where undo never erases learning.**
 
 Undo is navigation. Learning persists.
