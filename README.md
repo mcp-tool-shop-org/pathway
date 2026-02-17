@@ -1,3 +1,5 @@
+<p align="center"><img src="logo.png" alt="logo" width="200"></p>
+
 # Pathway Core v0.1
 
 > Part of [MCP Tool Shop](https://mcptoolshop.com)
