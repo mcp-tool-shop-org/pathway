@@ -1,5 +1,8 @@
 # Pathway Core v0.1
 
+> Part of [MCP Tool Shop](https://mcptoolshop.com)
+
+
 [![CI](https://github.com/mcp-tool-shop-org/pathway/actions/workflows/ci.yml/badge.svg)](https://github.com/mcp-tool-shop-org/pathway/actions/workflows/ci.yml)
 [![PyPI](https://img.shields.io/pypi/v/pathway-core)](https://pypi.org/project/pathway-core/)
 ![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)
