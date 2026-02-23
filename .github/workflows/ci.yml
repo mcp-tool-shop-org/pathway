@@ -4,12 +4,24 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'pyproject.toml'
+      - "**/*.py"
+      - "pyproject.toml"
+      - "setup.cfg"
+      - "requirements*.txt"
+      - ".github/workflows/**"
   pull_request:
     branches: [ main ]
     paths:
-      - 'pyproject.toml'
+      - "**/*.py"
+      - "pyproject.toml"
+      - "setup.cfg"
+      - "requirements*.txt"
+      - ".github/workflows/**"
   workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   test:
