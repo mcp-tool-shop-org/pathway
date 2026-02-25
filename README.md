@@ -1,14 +1,29 @@
-<p align="center"><img src="logo.png" alt="logo" width="200"></p>
+<p align="center">
+  <a href="README.ja.md">日本語</a> | <a href="README.zh.md">中文</a> | <a href="README.es.md">Español</a> | <a href="README.fr.md">Français</a> | <a href="README.hi.md">हिन्दी</a> | <a href="README.it.md">Italiano</a> | <a href="README.pt-BR.md">Português (BR)</a>
+</p>
 
-# Pathway Core v0.1
+<p align="center">
+  <img src="logo.png" alt="Pathway logo" width="400">
+</p>
 
-> Part of [MCP Tool Shop](https://mcptoolshop.com)
+<p align="center">
+    <em>Append-only journey engine where undo never erases learning.</em>
+</p>
 
-
-[![CI](https://github.com/mcp-tool-shop-org/pathway/actions/workflows/ci.yml/badge.svg)](https://github.com/mcp-tool-shop-org/pathway/actions/workflows/ci.yml)
-[![PyPI](https://img.shields.io/pypi/v/pathway-core)](https://pypi.org/project/pathway-core/)
-![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+<p align="center">
+    <a href="https://github.com/mcp-tool-shop-org/pathway/actions/workflows/ci.yml">
+        <img src="https://github.com/mcp-tool-shop-org/pathway/actions/workflows/ci.yml/badge.svg" alt="CI">
+    </a>
+    <a href="https://pypi.org/project/mcpt-pathway/">
+        <img src="https://img.shields.io/pypi/v/mcpt-pathway" alt="PyPI version">
+    </a>
+    <a href="https://opensource.org/licenses/MIT">
+        <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
+    </a>
+    <a href="https://mcp-tool-shop-org.github.io/pathway/">
+        <img src="https://img.shields.io/badge/Landing_Page-live-blue" alt="Landing Page">
+    </a>
+</p>
 
 **Pathway Core is an append-only journey engine where undo never erases learning.**
 
