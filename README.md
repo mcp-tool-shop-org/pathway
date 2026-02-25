@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="logo.png" alt="Pathway logo" width="400">
+  <img src="logo.png?v=2" alt="Pathway logo" width="400">
 </p>
 
 <p align="center">
