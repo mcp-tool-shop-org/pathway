@@ -3,7 +3,9 @@
 </p>
 
 <p align="center">
-  <img src="logo.png" alt="Pathway logo" width="400">
+  
+            <img src="https://raw.githubusercontent.com/mcp-tool-shop-org/brand/main/logos/pathway/readme.png"
+           alt="Pathway logo" width="400">
 </p>
 
 <p align="center">
