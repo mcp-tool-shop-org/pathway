@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mcp-tool-shop-org/pathway/main/logo.png" alt="Pathway logo" width="400">
+  <img src="https://raw.githubusercontent.com/mcp-tool-shop-org/pathway/main/logo-pathway.png" alt="Pathway logo" width="400">
 </p>
 
 <p align="center">
