@@ -122,3 +122,28 @@ pathway/
 ├── api/            # FastAPI endpoints
 └── cli.py          # Command-line tools
 ```
+
+## Security & Data Scope
+
+| Aspect | Detail |
+|--------|--------|
+| **Data touched** | Journey events and derived views in local SQLite. API request/response payloads (JSON) |
+| **Data NOT touched** | No telemetry. No analytics. No credential storage. No user PII beyond session IDs |
+| **Permissions** | Read/write: local SQLite database. Network: localhost HTTP server only |
+| **Network** | Localhost API server (FastAPI/uvicorn). No outbound calls. No external dependencies |
+| **Telemetry** | None collected or sent |
+
+See [SECURITY.md](SECURITY.md) for vulnerability reporting.
+
+## Scorecard
+
+| Category | Score |
+|----------|-------|
+| A. Security | 10 |
+| B. Error Handling | 10 |
+| C. Operator Docs | 10 |
+| D. Shipping Hygiene | 10 |
+| E. Identity (soft) | 10 |
+| **Overall** | **50/50** |
+
+> Full audit: [SHIP_GATE.md](SHIP_GATE.md) · [SCORECARD.md](SCORECARD.md)
