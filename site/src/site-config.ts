@@ -14,7 +14,7 @@ export const config: SiteConfig = {
     headlineAccent: 'Undo is navigation. Learning persists.',
     description: 'An append-only journey engine where backtracking creates new events instead of erasing history. Mistakes teach \u2014 they don\u2019t disappear.',
     primaryCta: { href: '#quick-start', label: 'Get started' },
-    secondaryCta: { href: '#philosophy', label: 'Why Pathway?' },
+    secondaryCta: { href: 'handbook/', label: 'Read the Handbook' },
     previews: [
       { label: 'Init', code: 'python -m pathway.cli init' },
       { label: 'Import', code: 'python -m pathway.cli import session.jsonl' },
